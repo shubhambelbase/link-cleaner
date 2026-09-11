@@ -19,22 +19,6 @@ One click, zero tracking. Strip `utm_*`, `fbclid`, `gclid`, `spm/scm`, affiliate
 * **Shortcuts** — Right-click → Copy Clean Link / Copy as Markdown, `Alt+Hover` in-page badge, `Ctrl+Shift+U` clean current page
 * **Themes** — Light / Dark / Auto
 
-## Install / Dev
 
-```bash
-npm install
-npm run dev      # Vite dev server
-npm run build    # production build -> dist/ (+ manifest/icons copy)
-node test-cleaner.mjs       # 118 unit tests
-node test-content-sync.mjs  # 21 parity tests (cleaner.js <-> content.js)
-```
-
-Load `dist/` via `chrome://extensions` → Developer mode → Load unpacked. See `STORE_LISTING.md` for Web Store copy.
-
-## Privacy
-
-The extension is 100% client-side — no analytics, no server. Details: [Privacy Policy](https://shubhambelbase.github.io/link-cleaner/privacy.html).
-
-Note: that hosted policy page itself uses Google Analytics (`gtag.js`, `G-Y34X8ZVVBR`) for page-view counts. The extension sends nothing.
 
 Contact: [shubham982615@gmail.com](mailto:shubham982615@gmail.com) · Source: [github.com/shubhambelbase/link-cleaner](https://github.com/shubhambelbase/link-cleaner)
